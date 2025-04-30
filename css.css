@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(img/papel.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group select {
+    cursor: pointer;
+}
+
+.input-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #004d99;
+}
+
+.terms {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.terms input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.planos-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plano {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plano h3 {
+    color: #0066cc;
+}
+
+.plano p {
+    font-size: 18px;
+    color: #333;
+}
+
+.plano button {
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.plano button:hover {
+    background-color: #004d99;
+}
+a{
+    color: #f4f4f4;
+}
